@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.env
+*.csv
+*.log
+data/preprocessed/
+data/output/
+data/xml/

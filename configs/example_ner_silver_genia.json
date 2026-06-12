@@ -1,0 +1,13 @@
+{
+    "model_weights": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "train12_data_path": "${PREPROCESSED_DIR}/split=train12_sample=1000_domain=genia_setup=ner_task=generative_im=uniform_nss=200_model=8B_seed=0.json",
+    "train3_data_path": "${PREPROCESSED_DIR}/split=train3_sample=1000_domain=genia_setup=ner_task=generative_im=uniform_nss=200_model=8B_seed=0.json",
+    "silver3_data_path": "${PREPROCESSED_DIR}/split=silver3_sample=1000_domain=genia_setup=ner_task=generative_im=uniform_nss=200_model=8B_seed=0.json",
+    "test_data_path": "${PREPROCESSED_DIR}/split=test_sample=1000_domain=genia_setup=ner_task=generative_im=uniform_nss=200_model=8B_seed=0.json",
+    "train12_output_dir": "${OUTPUT_DIR}/split=train12_sample=1000_domain=genia_setup=ner_task=generative_im=uniform_nss=200_model=8B_seed=0",
+    "train3_output_dir": "${OUTPUT_DIR}/split=train3_sample=1000_domain=genia_setup=ner_task=generative_im=uniform_nss=200_model=8B_seed=0",
+    "train123_output_dir": "${OUTPUT_DIR}/split=train123_sample=1000_domain=genia_setup=ner_task=generative_im=uniform_nss=200_model=8B_seed=0",
+    "entity_type_map": null,
+    "data_seed": 0,
+    "sample_size": "1000"
+}
